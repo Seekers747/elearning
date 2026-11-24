@@ -1,0 +1,11 @@
+@Elearning.Api_HostAddress = http://localhost:5159
+
+GET {{Elearning.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Elearning.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
